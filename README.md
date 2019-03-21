@@ -1,5 +1,5 @@
 # facebook_bot
-Facebook bot
+
 Для работы необходимо
-pip install Flask
-pip install pymessenger
+<br>pip install Flask
+<br>pip install pymessenger
