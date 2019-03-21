@@ -3,8 +3,8 @@ from flask import Flask, request
 from pymessenger.bot import Bot
 
 app = Flask(__name__)
-ACCESS_TOKEN = 'EAAENolH3AzgBAFHTYqW6B7N5WXFVeLFEqxtSCi0bZBA4VSVWxRh5ZBNM8uPc5U2ZArZCVkCNVkPkZC2Kaet0e0XHJrzF1YAMJqFKx0KAA1X16YZANLzw8DSoYVjlYt5hjdG5SUyyHF59qvlq5TtS1QPEzEfeaUqvwycNGqPCErKKzZAaK4U0ZBbl'
-VERIFY_TOKEN = 'SECRET'
+ACCESS_TOKEN = 'TOKEN'
+VERIFY_TOKEN = 'TOKEN'
 bot = Bot(ACCESS_TOKEN)
 
 #Получать сообщения, посылаемые фейсбуком нашему боту мы будем в этом терминале
